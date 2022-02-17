@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Test</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container _container">
+				<div class="header__body">
+					<div class="header__logo">
+						<a href="#" class="header__link-logo">LOGO</a>
+					</div>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link">постельное белье</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">одежда для дома</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Одежда для улицы</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">ВЫход</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__user user">
+						<a href="#" class="user__link _icon-person"></a>
+						<a href=" #" class="user__link _icon-like"></a>
+						<a href="#" id="cart" class="user__link _icon-cart"></a>
+					</div>
+					<button class="icon-menu">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__product product-page">
+				<div class="product-page__container _container">
+					<div class="product-page__body">
+						<div class="product-page__colum gallery">
+							<div class="gallery__body">
+								<div class="gallery__img-big _ibg">
+									<img id="big-img" src="img/product-1.jpg" alt="">
+								</div>
+								<div class="gallery__miniatures">
+									<div class="gallery__item _ibg _active">
+										<img class="gallery__img" src="img/product-1.jpg" alt="">
+									</div>
+									<div class="gallery__item _ibg">
+										<img class="gallery__img" src="img/product-2.jpg" alt="">
+									</div>
+									<div class="gallery__item _ibg">
+										<img class="gallery__img" src="img/product-3.jpg" alt="">
+									</div>
+									<div class="gallery__item _ibg">
+										<img class="gallery__img" src="img/product-4.jpg" alt="">
+									</div>
+									<div class="gallery__item _ibg">
+										<img class="gallery__img" src="img/product-5.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-page__colum info">
+							<div class="info__body">
+								<h2 class="info__title">Пижама для девочек</h2>
+								<div class="info__text">Арт. 02765/46</div>
+								<div class="info__reviews reviews-info">
+									<div class="reviews-info__text">Отзывы</div>
+									<div class="reviews-info__rating rating" data-total-value="4">
+										<div class="rating__item" data-item-value="5">★</div>
+										<div class="rating__item" data-item-value="4">★</div>
+										<div class="rating__item" data-item-value="3">★</div>
+										<div class="rating__item" data-item-value="2">★</div>
+										<div class="rating__item" data-item-value="1">★</div>
+									</div>
+									<a href="#" class="reviews-info__link _icon-arrow">14 отзывов</a>
+								</div>
+								<div class="info__prices prices">
+									<div class="prices__row">
+										<div class="prices__price-new">800 ₽</div>
+										<div class="prices__price-old">1 500 ₽</div>
+										<a href="#" class="prices__link-arrow _icon-arrow"></a>
+									</div>
+									<div class="prices__row">
+										<div class="prices__item">скидка -36%</div>
+										<div class="prices__item">акция -20%</div>
+									</div>
+								</div>
+								<form class="info__form form" action="#" method="get">
+									<div class="form__line">
+										<div class="form__row">
+											<select name="form[]" class="form" id="size">
+												<option value="1" selected="selected">Выбрать размер</option>
+												<option value="2">S</option>
+												<option value="3">M</option>
+												<option value="4">L</option>
+												<option value="5">XL</option>
+											</select>
+										</div>
+										<div class="form__row">
+											<a href="#" class="form__link link">Определить размер</a>
+										</div>
+									</div>
+									<div class="form__line">
+										<div class="form__row form__row_flex">
+											<div class="quantity">
+												<div class="quantity__button quantity__button_plus"></div>
+												<div class="quantity__input">
+													<input id="quantity-input" autocomplete="off" type="text" name="form[]" value="1">
+												</div>
+												<div class="quantity__button quantity__button_minus"></div>
+											</div>
+											<div class="form__buttons">
+												<button type="submit" id="cart-btn" class="form__btn btn"><span class="btn__add">Добавить в корзину</span><span class="btn__added">Товар добавлен</span></button>
+												<button type="submit" class="form__btn btn btn_padding-fz _icon-like"></button>
+											</div>
+										</div>
+										<div class="form__row">
+											<a href="#" class="form__link link">Купить в 1 клик</a>
+										</div>
+									</div>
+								</form>
+								<div class="info__massege massege"></div>
+							</div>
+							<div class="info__footer">
+								<div class="info__links">
+									<a href="#" class="info__linck link"><span class="_icon-cloth"></span> Описание товара</a>
+									<a href="#" class="info__linck link"><span class="_icon-clock"></span> Доставка и возврат</a>
+									<a href="#" class="info__linck link"><span class="_icon-card"></span> Способы оплаты</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__gallery gallery-page">
+				<div class="gallery-page__container _container">
+					<div class=" gallery-page__body">
+						<h2 class="gallery-page__title"></h2>
+						<div class="gallery-page__box">
+							<a href="#" class="gallery-page__link link">Посмотреть все стили</a>
+						</div>
+						<div class="gallery-page__grid">
+							<div class="gallery-page__item gallery-page__item_big _ibg">
+								<img src=" img/foto-1.jpg" alt="">
+								<div class="gallery-page__hover hover-gallery">
+									<a href="#" class="hover-gallery__link-many _icon-items"></a>
+									<a href="#" class="hover-gallery__link-cart _icon-cart">Узнай, что на мне</a>
+									<a href="#" class="hover-gallery__link-like _icon-like-full">200</a>
+								</div>
+							</div>
+							<div class="gallery-page__item _ibg">
+								<img src="img/foto-2.jpg" alt="">
+								<div class="gallery-page__hover hover-gallery">
+									<a href="#" class="hover-gallery__link-many _icon-items"></a>
+									<a href="#" class="hover-gallery__link-cart _icon-cart">Узнай, что на мне</a>
+									<a href="#" class="hover-gallery__link-like _icon-like-full">200</a>
+								</div>
+							</div>
+							<div class="gallery-page__item _ibg">
+								<img src="img/foto-3.jpg" alt="">
+								<div class="gallery-page__hover hover-gallery">
+									<a href="#" class="hover-gallery__link-many _icon-items"></a>
+									<a href="#" class="hover-gallery__link-cart _icon-cart">Узнай, что на мне</a>
+									<a href="#" class="hover-gallery__link-like _icon-like-full">200</a>
+								</div>
+							</div>
+							<div class="gallery-page__item _ibg">
+								<img src="img/foto-4.jpg" alt="">
+								<div class="gallery-page__hover hover-gallery">
+									<a href="#" class="hover-gallery__link-many _icon-items"></a>
+									<a href="#" class="hover-gallery__link-cart _icon-cart">Узнай, что на мне</a>
+									<a href="#" class="hover-gallery__link-like _icon-like-full">200</a>
+								</div>
+							</div>
+							<div class="gallery-page__item _ibg">
+								<img src="img/foto-5.jpg" alt="">
+								<div class="gallery-page__hover hover-gallery">
+									<a href="#" class="hover-gallery__link-many _icon-items"></a>
+									<a href="#" class="hover-gallery__link-cart _icon-cart">Узнай, что на мне</a>
+									<a href="#" class="hover-gallery__link-like _icon-like-full">200</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container _container">
+				<div class="footer__body">
+					<div class="footer__left">
+						<ul class="footer__list">
+							<li class="footer__item">
+								<p class="footer__text">покупателям</p>
+								<ul class="footer__sublist">
+									<li class="footer__subitem"><a href="#" class="footer__link">Каталог</a></li>
+									<li class="footer__subitem"><a href="#" class="footer__link">Акции</a></li>
+									<li class="footer__subitem"><a href="#" class="footer__link">Бренды</a></li>
+								</ul>
+							</li>
+							<li class="footer__item">
+								<p class="footer__text">о нас</p>
+								<ul class="footer__sublist">
+									<li class="footer__subitem"><a href="#" class="footer__link">О компании</a></li>
+									<li class="footer__subitem"><a href="#" class="footer__link">Новости</a></li>
+									<li class="footer__subitem"><a href="#" class="footer__link">Команда</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__right">
+						<form class="footer__form form-footer form" action="#">
+							<div class="form-footer__label">Узнайте первыми о новинках и акциях</div>
+							<div class="form-footer__line">
+								<input id="clear" class="form-footer__input input _email _req" data-error="Неправильный email" autocomplete="off" type="text" name="form[]" placeholder="Адрес электронной почты" data-value="Адрес электронной почты">
+								<button id="close" class="form-footer__close _icon-cross"></button>
+							</div>
+							<button type="submit" class="form__btn btn btn_footer">Подписаться</button>
+						</form>
+					</div>
+				</div>
+
+			</div>
+
+		</footer>
+	</div>
+	<script src="js/app.min.js"></script>
+	<script src="js/vendors.js"></script>
+</body>
+
+</html>
